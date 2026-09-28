@@ -19,16 +19,16 @@ const StarryBackground = () => {
     window.addEventListener('resize', setCanvasSize);
 
     const particles = [];
-    const particleCount = 150; // High density
+    const particleCount = 150; 
 
     for (let i = 0; i < particleCount; i++) {
       particles.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        radius: Math.random() * 2 + 1.2, // Bolder stars
+        radius: Math.random() * 2 + 1.2, 
         vx: (Math.random() - 0.5) * 0.5,
         vy: (Math.random() - 0.5) * 0.5,
-        alpha: Math.random() * 0.6 + 0.4, // Super bright minimum opacity
+        alpha: Math.random() * 0.6 + 0.4, 
         alphaSpeed: Math.random() * 0.02 + 0.01
       });
     }
@@ -57,7 +57,7 @@ const StarryBackground = () => {
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255, 215, 0, ${p.alpha})`; // Pure gold
+        ctx.fillStyle = `rgba(255, 215, 0, ${p.alpha})`; 
         ctx.shadowBlur = 15;
         ctx.shadowColor = 'rgba(255, 215, 0, 1)';
         ctx.fill();
@@ -72,7 +72,7 @@ const StarryBackground = () => {
           ctx.moveTo(p.x, p.y);
           ctx.lineTo(mouse.x, mouse.y);
           const opacity = 1 - distance / 220;
-          ctx.strokeStyle = `rgba(255, 215, 0, ${opacity * 0.8})`; // Brighter constellation lines
+          ctx.strokeStyle = `rgba(255, 215, 0, ${opacity * 0.8})`; 
           ctx.lineWidth = 1;
           ctx.stroke();
         }
@@ -495,7 +495,7 @@ export default function App() {
               </div>
               <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#050505]/80 backdrop-blur-md border border-[#D4AF37]/30 p-8 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
                 <div className="flex flex-col mb-4">
-                  <h3 className="font-cinematic text-3xl text-white tracking-wide">ASHA MAHA VIDYALAYA</h3>
+                  <h3 className="font-cinematic text-3xl text-white tracking-wide">MAHATMA GANDHI KASHI VIDYAPITH</h3>
                   <time className="text-[10px] font-bold tracking-[0.2em] text-[#D4AF37] mt-2 uppercase">Bachelor of Commerce (B.Com) | 2022 - 2025</time>
                 </div>
                 <p className="text-sm text-gray-300 leading-relaxed">Core focus on Financial Accounting, Business Economics, and Statistics. Developed an advanced understanding of statistical data validation, business audit principles, and corporate finance.</p>
