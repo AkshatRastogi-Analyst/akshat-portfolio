@@ -525,14 +525,14 @@ export default function App() {
             </motion.p>
 
             <motion.div variants={itemReveal} className="flex flex-col md:flex-row items-center justify-center gap-6">
-              <a href="mailto:akshat.rastogi@example.com" className="w-full md:w-auto gold-bg text-black px-10 py-5 text-xs font-black tracking-[0.15em] uppercase hover:bg-yellow-500 transition-all hover:scale-105 shadow-[0_0_30px_rgba(212,175,55,0.4)] flex items-center justify-center gap-3 rounded-sm">
+              <a href="mailto:akshatrastogi0425@gmail.com" className="w-full md:w-auto gold-bg text-black px-10 py-5 text-xs font-black tracking-[0.15em] uppercase hover:bg-yellow-500 transition-all hover:scale-105 shadow-[0_0_30px_rgba(212,175,55,0.4)] flex items-center justify-center gap-3 rounded-sm">
                 <Mail size={18} strokeWidth={2.5} /> SEND AN EMAIL
               </a>
               <div className="flex gap-4">
-                <a href="https://github.com" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-full border border-gray-700 flex items-center justify-center text-gray-300 hover:text-[#D4AF37] hover:border-[#D4AF37] hover:scale-110 transition-all bg-[#050505]/80 backdrop-blur-md shadow-lg font-bold tracking-widest text-xs">
+                <a href="https://github.com/AkshatRastogi-Analyst" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-full border border-gray-700 flex items-center justify-center text-gray-300 hover:text-[#D4AF37] hover:border-[#D4AF37] hover:scale-110 transition-all bg-[#050505]/80 backdrop-blur-md shadow-lg font-bold tracking-widest text-xs">
                   GH
                 </a>
-                <a href="tel:+1234567890" className="w-14 h-14 rounded-full border border-gray-700 flex items-center justify-center text-gray-300 hover:text-[#D4AF37] hover:border-[#D4AF37] hover:scale-110 transition-all bg-[#050505]/80 backdrop-blur-md shadow-lg">
+                <a href="tel:+918468037051" className="w-14 h-14 rounded-full border border-gray-700 flex items-center justify-center text-gray-300 hover:text-[#D4AF37] hover:border-[#D4AF37] hover:scale-110 transition-all bg-[#050505]/80 backdrop-blur-md shadow-lg">
                   <Phone size={18} />
                 </a>
               </div>
